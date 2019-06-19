@@ -7,7 +7,7 @@ function isPrime(n){
 }
 var primes=[];
 for(m=0;m<101;m++){
-	if(isPrime(m))
+	if(isPrime(m)==true)
 		primes.push(m);
 }
 console.log(primes);

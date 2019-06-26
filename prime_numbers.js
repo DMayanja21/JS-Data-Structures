@@ -6,7 +6,7 @@ function isPrime(n){//generate a function that can identify prime numbers (numbe
 	return true;//when m found not to be a factor of n, the selected value of n is a prime number
 }
 var primes=[];//generates an array to be defined by the subsequent code
-for(m=0;m<==100;m++){//generates a loop within which values of m that fall within the given range are ran through the function generated above
+for(m=0;m<==100;m++){//generates a loop within which values of m that fall within the given range(0 to 100) are ran through the function generated above
 	if(isPrime(m)==true)
 		primes.push(m);//values of m found to be "true" are then pushed to the array
 }
